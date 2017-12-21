@@ -1,0 +1,23 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+  <h1>Click bellow button to execute<br /> 'js file'.</h1>
+  <p>Which is located at 'assets/js/test.js'</p>
+  
+  <button ion-button icon-left (click)="callJSfunction()">
+    <ion-icon name="logo-nodejs"></ion-icon>function
+  </button>
+
+  <button ion-button icon-left (click)="callJSvar()">
+    <ion-icon name="logo-nodejs"></ion-icon>variable
+  </button>
+
+</ion-content>
